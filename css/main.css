@@ -1,0 +1,292 @@
+@import 'normalize.css';
+html,
+body,
+:before,
+:after,
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  line-height: 1.25;
+  font-family: calibre test, arial;
+}
+body {
+  padding: 0;
+  min-width: 320px;
+}
+p {
+  font-size: 1.125rem;
+  font-weight: regular;
+}
+@media (min-width: 700px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+a {
+  font-size: 1.125rem;
+  color: #F219BB;
+  text-decoration: underline;
+}
+@media (min-width: 700px) {
+  a {
+    font-size: 1.5rem;
+  }
+}
+h1 {
+  font-weight: 600;
+  font-size: 2.625rem;
+  line-height: 1;
+}
+@media (min-width: 700px) {
+  h1 {
+    font-size: 3.375rem;
+  }
+}
+.-caps {
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+@media (min-width: 700px) {
+  .-caps {
+    font-size: 1rem;
+  }
+}
+header {
+  overflow: hidden;
+  padding: 1rem 1rem 3.5rem 1rem;
+}
+@media (min-width: 700px) {
+  header {
+    margin-bottom: 6rem;
+    padding: 2rem 1rem 3.5rem 1rem;
+  }
+}
+@media (min-width: 1045px) {
+  header {
+    width: 95%;
+    margin: 1rem auto 6rem auto;
+  }
+}
+header nav {
+  float: right;
+}
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: .25rem 0 0 1rem;
+  color: #272F3A;
+}
+@media (min-width: 700px) {
+  header nav a {
+    font-size: 1.25rem;
+    padding: .55rem 0 0 2rem;
+  }
+}
+header nav a:focus,
+header nav a:hover {
+  color: #F219BB;
+  text-decoration: underline;
+}
+header img {
+  width: 1.625rem;
+  float: left;
+}
+@media (min-width: 700px) {
+  header img {
+    width: 2.125rem;
+  }
+}
+.hero {
+  margin-bottom: 9rem;
+  padding: 1rem;
+}
+@media (min-width: 700px) {
+  .hero {
+    margin-bottom: 16rem;
+    padding: 0;
+  }
+}
+.hero h1 {
+  margin-bottom: 0;
+}
+@media (min-width: 700px) {
+  .hero h1 > span {
+    display: block;
+  }
+}
+.hero span > span {
+  color: #F219BB;
+}
+main {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  main {
+    padding: 0 1rem 0 1rem;
+  }
+}
+footer {
+  margin: 6rem auto 3rem auto;
+  text-align: center;
+}
+footer a {
+  margin: 2rem auto;
+  display: block;
+  text-align: center;
+}
+footer img {
+  margin: 4rem auto 2rem auto;
+}
+[class^="case-"] {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  max-width: 52rem;
+  border-bottom: 2px white solid;
+}
+@media (min-width: 700px) {
+  [class^="case-"] {
+    border-radius: 2px;
+    border-bottom: none;
+  }
+}
+[class^="case-"] * {
+  color: white;
+}
+[class^="case-"] h1 {
+  margin: 0;
+}
+[class^="case-"] p {
+  margin: 0;
+}
+[class^="case-"] ul {
+  padding: 0;
+  margin: 3rem 0 0 0;
+  list-style-type: none;
+}
+@media (min-width: 700px) {
+  [class^="case-"] ul {
+    margin-top: 5rem;
+  }
+}
+[class^="case-"] li,
+[class^="case-"] span {
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: .3rem 0 .3rem 0;
+}
+@media (min-width: 700px) {
+  [class^="case-"] li,
+  [class^="case-"] span {
+    font-size: 1rem;
+  }
+}
+[class^="case-"] li:last-of-type {
+  padding-top: 1.2rem;
+}
+[class^="case-"] li > span {
+  font-weight: 700;
+}
+.case-livesmart {
+  display: inline-block;
+  width: 100%;
+  background: #1980F2;
+}
+@media (min-width: 700px) {
+  .case-livesmart {
+    padding: 4.25rem;
+    margin-bottom: 9rem;
+  }
+}
+.case-livesmart h1,
+.case-livesmart p,
+.case-livesmart li {
+  text-align: center;
+}
+@media (min-width: 700px) {
+  .case-livesmart h1,
+  .case-livesmart p,
+  .case-livesmart li {
+    text-align: left;
+  }
+}
+@media (min-width: 700px) {
+  .case-livesmart h1 {
+    margin-top: 0;
+  }
+}
+.case-livesmart img {
+  display: block;
+  width: 12rem;
+  margin: -5rem auto 3rem auto;
+  filter: drop-shadow(14px 7px 42px rgba(0, 0, 0, 0.2));
+}
+@media (min-width: 700px) {
+  .case-livesmart img {
+    position: absolute;
+    top: 1rem;
+    bottom: 0;
+    right: 11%;
+    margin: 0;
+    width: 8.5rem;
+    transform: scale(1.66);
+  }
+}
+.case-workedwith {
+  overflow: hidden;
+  padding: 4rem 1rem 4rem 1rem;
+  background: #272F3A;
+}
+@media (min-width: 700px) {
+  .case-workedwith {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    padding: 4.25rem;
+  }
+}
+.case-workedwith p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+@media (min-width: 700px) {
+  .case-workedwith p {
+    margin-bottom: 0;
+    white-space: nowrap;
+    align-self: center;
+    padding-right: 2rem;
+  }
+}
+.case-workedwith .logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 28rem;
+  margin: 0 auto;
+}
+.case-workedwith .logos img {
+  width: 30%;
+  height: 100%;
+  height: auto;
+}
+.case-eartime {
+  background: url(../img/eartime-avatars.png), #97CCD1;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: 50rem;
+  padding: 4rem 0 4rem 0;
+}
+.case-eartime h1,
+.case-eartime p,
+.case-eartime li {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,329 @@
+@import 'normalize.css';
+
+// ===================================
+// LESS VARIABLESS
+// ===================================
+@medium: ~'(min-width: 700px)';
+@large: ~'(min-width: 1045px)';
+
+@color-negative: #272F3A;
+@color-accent: #F219BB;
+
+@border-radius: 2px;
+
+@gutter-page: 1rem;
+
+
+// ===================================
+// BASE STYLES
+// ===================================
+html,
+body,
+&:before,
+&:after,
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	line-height: 1.25;
+	font-family: calibre test, arial;
+}
+
+body {
+	padding: 0;
+	min-width: 320px;
+}
+
+p {
+	font-size: 1.125rem;
+	font-weight: regular;
+
+	@media @medium {
+		font-size: 1.5rem;
+	}
+}
+
+a {
+	font-size: 1.125rem;
+	color: @color-accent;
+	text-decoration: underline;
+
+	@media @medium {
+		font-size: 1.5rem;
+	}
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 2.625rem;
+	line-height: 1;
+
+	@media @medium {
+		font-size: 3.375rem;	
+	}
+}
+
+.-caps {
+	font-size: .8rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	@media @medium {
+		font-size: 1rem;
+	}
+}
+
+
+// ===================================
+// GLOBAL
+// ===================================
+header {
+	overflow: hidden;
+	padding: 1rem @gutter-page 3.5rem @gutter-page;
+
+	@media @medium {
+		margin-bottom: 6rem;
+		padding: 2rem @gutter-page 3.5rem @gutter-page;
+	}
+
+	@media @large {
+		width: 95%;
+		margin: 1rem auto 6rem auto;
+	}
+
+	nav {
+		float: right;
+
+		a {
+			display: inline-block;
+			text-decoration: none;
+			padding: .25rem 0 0 1rem;
+			color: @color-negative;
+
+			@media @medium {
+				font-size: 1.25rem;
+				padding: .55rem 0 0 2rem;
+			}
+
+			&:focus,
+			&:hover {
+				color: @color-accent;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	img {
+		width: 1.625rem;
+		float: left;
+		
+		@media @medium {
+			width: 2.125rem;
+		}
+	}
+}
+
+.hero {
+	margin-bottom: 9rem;
+	padding: @gutter-page;
+
+	@media @medium {
+		margin-bottom: 16rem;
+		padding: 0;
+	}
+
+	h1 {
+		margin-bottom: 0;
+
+		> span {
+
+			@media @medium {
+				display: block;
+			}
+		}
+	}
+	
+	span > span {
+		color: @color-accent;
+	}
+}
+
+main {
+	max-width: 52rem;
+	margin: 0 auto;
+
+	@media @medium {
+		padding: 0 @gutter-page 0 @gutter-page;	
+	}
+}
+
+
+footer {
+	margin: 6rem auto 3rem auto;
+	text-align: center;
+
+	a {
+		margin: 2rem auto;
+		display: block;
+		text-align: center;
+	}
+
+	img {
+		margin: 4rem auto 2rem auto;
+	}
+}
+
+
+// ===================================
+// CASE STUDIES
+// ===================================
+[class^="case-"] {
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: 4rem;
+	max-width: 52rem;
+	border-bottom: 2px white solid;
+
+	@media @medium {
+		border-radius: @border-radius;
+		border-bottom: none;
+	}
+
+	* {
+		color: white;
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	ul {
+		padding: 0;
+		margin: 3rem 0 0 0;
+		list-style-type: none;
+
+		@media @medium {
+			margin-top: 5rem;
+		}
+	}
+
+	li, span {
+		.-caps;
+		line-height: 1;
+		padding: .3rem 0 .3rem 0;
+	}
+
+	li:last-of-type {
+		padding-top: 1.2rem;
+	}
+
+	li > span {
+		font-weight: 700;
+	}
+}
+
+.case-livesmart {
+	display: inline-block; // prevents collapsing margins
+	width: 100%;
+	background: #1980F2;
+
+	@media @medium {
+		padding: 4.25rem;
+		margin-bottom: 9rem;
+	}
+
+	h1, p, li {
+		text-align: center;
+
+		@media @medium {
+			text-align: left;
+		}
+	}
+
+	h1 {
+
+		@media @medium {
+			margin-top: 0;
+		}
+	}
+	
+	img {
+		display: block;
+		width: 12rem;
+		margin: -5rem auto 3rem auto;
+		filter: drop-shadow(14px 7px 42px rgba(0, 0, 0, 0.2));
+
+		@media @medium {
+			position: absolute;
+			top: 1rem;
+			bottom: 0;
+			right: 11%;
+			margin: 0;
+		    width: 8.5rem;
+		    transform: scale(1.66);
+		}
+	}	
+}
+
+.case-workedwith {
+	overflow: hidden;
+	padding: 4rem @gutter-page 4rem @gutter-page;
+	background: @color-negative;
+
+	@media @medium {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 4rem;
+		padding: 4.25rem;
+	}
+
+	p {
+		text-align: center;
+		margin-bottom: 3rem;
+
+		@media @medium {
+			margin-bottom: 0;
+			white-space: nowrap;
+			align-self: center;
+			padding-right: 2rem;
+		}
+	}
+
+	.logos {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		max-width: 28rem;
+		margin: 0 auto;
+
+		img {
+			width: 30%;
+			height: 100%;
+			height: auto;
+		}
+	}
+}
+
+.case-eartime {
+	background: url(../img/eartime-avatars.png), #97CCD1;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: 50rem;
+	padding: 4rem 0 4rem 0;
+
+	h1, p, li {
+		text-align: center;
+	}
+}
+
+
+
+
