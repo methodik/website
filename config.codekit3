@@ -84,48 +84,6 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
-	"\/fonts\/CalibreWeb-Black.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Black.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Black.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Black.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Black.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Black.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-BlackItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-BlackItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-BlackItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-BlackItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-BlackItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-BlackItalic.woff2",
-		"oF": 0
-		},
 	"\/fonts\/CalibreWeb-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -145,111 +103,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/fonts\/CalibreWeb-Bold.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-BoldItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-BoldItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-BoldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-BoldItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-BoldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-BoldItalic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Light.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Light.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Light.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Light.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Light.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Light.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-LightItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-LightItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-LightItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-LightItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-LightItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-LightItalic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Medium.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Medium.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Medium.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Medium.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-MediumItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-MediumItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-MediumItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-MediumItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-MediumItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-MediumItalic.woff2",
 		"oF": 0
 		},
 	"\/fonts\/CalibreWeb-Regular.eot": {
@@ -273,27 +126,6 @@
 		"oAP": "\/fonts\/CalibreWeb-Regular.woff2",
 		"oF": 0
 		},
-	"\/fonts\/CalibreWeb-RegularItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-RegularItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-RegularItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-RegularItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-RegularItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-RegularItalic.woff2",
-		"oF": 0
-		},
 	"\/fonts\/CalibreWeb-Semibold.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -313,69 +145,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/fonts\/CalibreWeb-Semibold.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-SemiboldItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-SemiboldItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-SemiboldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-SemiboldItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-SemiboldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-SemiboldItalic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Thin.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Thin.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Thin.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Thin.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-Thin.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-Thin.woff2",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-ThinItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-ThinItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-ThinItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-ThinItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/CalibreWeb-ThinItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/CalibreWeb-ThinItalic.woff2",
 		"oF": 0
 		},
 	"\/humans.txt": {
@@ -508,6 +277,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cB": 0,

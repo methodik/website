@@ -1,4 +1,16 @@
 @import 'normalize.css';
+@font-face {
+  font-family: 'calibre-regular';
+  src: url('../fonts/CalibreWeb-Regular.woff2') format('woff2'), url('CalibreWeb-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'calibre-semibold';
+  src: url('../fonts/CalibreWeb-Semibold.woff2') format('woff2'), url('../fonts/CalibreWeb-Semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'calibre-bold';
+  src: url('../fonts/CalibreWeb-Bold.woff2') format('woff2'), url('../fonts/CalibreWeb-Bold.woff') format('woff');
+}
 html,
 body,
 :before,
@@ -11,7 +23,7 @@ body,
 html {
   font-size: 16px;
   line-height: 1.25;
-  font-family: calibre test, arial;
+  font-family: calibre-regular, arial;
 }
 body {
   padding: 0;
@@ -19,7 +31,6 @@ body {
 }
 p {
   font-size: 1.125rem;
-  font-weight: regular;
 }
 @media (min-width: 700px) {
   p {
@@ -37,7 +48,7 @@ a {
   }
 }
 h1 {
-  font-weight: 600;
+  font-family: calibre-semibold;
   font-size: 2.625rem;
   line-height: 1;
 }
@@ -98,7 +109,7 @@ header img {
 }
 @media (min-width: 700px) {
   header img {
-    width: 2.125rem;
+    width: 2.5rem;
   }
 }
 .hero {
@@ -141,6 +152,7 @@ footer a {
   text-align: center;
 }
 footer img {
+  width: 2.5rem;
   margin: 4rem auto 2rem auto;
 }
 [class^="case-"] {
@@ -182,6 +194,7 @@ footer img {
   letter-spacing: 1px;
   line-height: 1;
   padding: .3rem 0 .3rem 0;
+  -webkit-font-smoothing: antialiased;
 }
 @media (min-width: 700px) {
   [class^="case-"] li,
@@ -193,7 +206,7 @@ footer img {
   padding-top: 1.2rem;
 }
 [class^="case-"] li > span {
-  font-weight: 700;
+  font-family: calibre-bold;
 }
 .case-livesmart {
   display: inline-block;
